@@ -1,11 +1,13 @@
 package main
+
 import "fmt"
 
 func main() {
 	fmt.Println("Golang program to check for palindrome")
 	var number, rem, temporary int
 	var reverse int = 0
-	number = 4545
+	fmt.Print("Enter a Number:")
+	fmt.Scan(&number)
 	temporary = number
 	for {
 		rem = number % 10
